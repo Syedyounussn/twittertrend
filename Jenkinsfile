@@ -65,7 +65,7 @@ pipeline{
                           "files": [
                             {
                               "pattern": "jarstaging/(*)",
-                              "target": "twittertrend-libs-release-local/{1}",
+                              "target": "ttrend/{1}",
                               "flat": "false",
                               "props" : "${properties}",
                               "exclusions": [ "*.sha1", "*.md5"]
