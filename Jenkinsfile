@@ -1,7 +1,7 @@
    pipeline {
     agent {
        node {
-         label "valaxy"
+         label "node1"
       }
      }
      stages {
