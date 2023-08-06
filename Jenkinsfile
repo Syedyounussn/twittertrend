@@ -13,4 +13,4 @@ pipeline {
                 echo '<------------- Build completed --------------->'
             }
         }
-    }
+    
