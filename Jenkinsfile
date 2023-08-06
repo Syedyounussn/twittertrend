@@ -1,14 +1,8 @@
-def registry = 'https://syed333.jfrog.io'
-def imageName = 'syed333.jfrog.io/valaxy-docker/ttrend'
-def version   = '2.0.2'
 pipeline{
     agent {
         node {
-            label "valaxy"
+            label "node1"
         }
-    }
-    environment {
-        PATH = "/opt/apache-maven-3.9.3/bin:$PATH"
     }
     stages {
         stage('build') {
